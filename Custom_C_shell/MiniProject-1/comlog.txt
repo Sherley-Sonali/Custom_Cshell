@@ -1,0 +1,15 @@
+bg 343110
+sleep 10 &
+ping 343399 19
+bg 343399
+gedit
+sleep 1-0 &
+sleep 10 &
+ping 344198 19
+activities
+bg 344198
+sleep 10 &
+ping 344425 19
+activities
+bg 344425
+s

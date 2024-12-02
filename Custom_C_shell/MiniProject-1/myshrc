@@ -1,0 +1,24 @@
+
+#comments
+
+alias reveall = 'reveal -l'
+alias home = 'hop ~'
+alias eh = 'echo hello'
+
+mk_hop() 
+{ 
+	mkdir "$1"  
+	hop "$1" 
+}
+
+hop_seek() 
+{
+    hop "$1"  
+    seek "$1" 
+}
+
+seek_hop() 
+{
+    seek "$1" 
+    hop "$1" 
+}
